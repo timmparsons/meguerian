@@ -2,24 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Alpha Payroll</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
-    <script type="text/javascript" src="js/javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meguerian and Associates</title>
 
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+    <script type="text/javascript" src="./js/javascript.js"></script>
+    
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   	<!-- Optional theme -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   	<link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <script src="./js/javascript.js"></script>
   </head>
 <body>
-
- <nav class="navbar navbar-default" style="background: transparent;">
-    <div class="container">
+<nav class="navbar navbar-default">
+    <div class="container">      
       <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="./img/meguerian-logo-black-bg.png" id="meguerian-logo"></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -27,11 +33,11 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div id="navbar" class="collapse navbar-collapse">
+      <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Home</a></li>
-          <li><a href="#whatwedo">About</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+           <li><a href="#services">Services</a></li>
           <li><a href="#forms">Forms</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -39,7 +45,243 @@
     </div>
   </nav>
 
-   
+  <section class="hero-section">
+    <div class="container-fluid hero-section-container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 hero-col-left">
+          <img src="./img/calculator1888v3.png" id="calculator-bg" class="img-responsive">
+        </div>
+        <div class="col-md-6 col-sm-12 hero-col-right">  
+          <h2 class="hero-h2">Meguerian &amp; Associates</h2>
+          <h4 class="hero-h4">More Than Just Numbers</h4>  
+        </div>
+        <img src="./img/img_527943.svg" class="letter-m">
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="industry-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="about-section" id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h3 class="who-we-are fade">Who We Are</h3>
+          <hr>
+          <p class="who-we-are-p fade">Founded in 1995, Meguerian &amp; Associates is a trusted accounting and business services provider, offering its clients competitive rates and superior service. We prove to be the ideal destination for starting your business. Over the years, Meguerian &amp; Associates has proudly helped countless businesses operate effortlessly and successfully.</p>
+
+          <p class="who-we-are-p fade">You’ve already shown that you know what it takes to succeed; hard work, sacrifice, and dedication. This in turn has allowed you to start your own business. Meguerian &amp; Associates respects your achievements and understands the time constraints placed upon you as a small business owner, especially when starting a new business. Our objective is to simplify the process by eliminating the middleman and saving you hundreds of dollars. Instead, we allow you valuable time to focus on operating and transitioning into your new business while Meguerian &amp; Associates takes care of the rest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="services">
+    <h3 class="services-h3">Services</h3>
+    <hr class="services-line">
+    <div class="container-fluid services-container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 services-col services-first">
+          <button type="button" class="services-type-indiv-h3 btn btn-secondary btn-lg btn-block">Individuals &amp; Families</button>
+          <div class="services-list" id="services-list-one">
+            <ul class="ul-indiv" style="display: none">
+              <li class="services-first-li">Personal Income Tax Preparation and Filing Services</li>
+              <li class="services-first-li">Tax Planning</li>
+              <li class="services-first-li">Estate and Gift Tax Filing Services</li>
+              <li class="services-first-li">Foreign Account Reporting Services</li>
+              <li class="services-first-li">Estate Planning Consulting Services (Living Trusts, Wills, POAs, Medical Directives, Deed Recording)</li>
+              <li class="services-first-li">Owner Occupied and Investment Residential Real Estate Finance Consulting</li>
+              <li class="services-first-li">Real Estate Acquisition and Refinance Consulting Services</li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="container-fluid services-container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 services-col services-second">
+          <button type="button" class="services-type-biz-h3 btn btn-secondary btn-lg btn-block">Businesses</button>
+          <div class="services-list" id="services-list-two">
+            <ul class="ul-biz" style="display: none">
+              <li class="services-second-li">Business Tax Preparation and Filing Services</li>
+              <li class="services-second-li">Accounting Services</li>
+              <li class="services-second-li">Bookkeeping Services</li>
+              <li class="services-second-li">Payroll Services</li>
+              <li class="services-second-li">Business Management</li>
+              <li class="services-second-li">Sales and Use Tax Filing Services</li>
+              <li class="services-second-li">New Business Formation Services for LLP’s, LLC’s, LP’s, S-Corps, C-Corps, Partnerships, and Sole Proprietorships.</li>
+              <li class="services-second-li">Tax Planning and Forecasting</li>
+              <li class="services-second-li">Commercial Real Estate Finance Consulting</li>
+              <li class="services-second-li">Commercial Real Estate Acquisition Consulting</li>
+              <li class="services-second-li"> Like Kind Exchange/1031 Exchange Consulting</li>
+              <li class="services-second-li">Medical and Professional Business Expansion, Startup and Acquisition Consulting</li>
+              <li class="services-second-li">Business Legal Document Preparation Services</li>
+            </ul>
+          </div>       
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial-section">
+    <h3 class="testimonial-h3">5 Star Reviews <a href="https://www.yelp.com/biz/meguerian-and-associates-northridge"><i class="fa fa-yelp" aria-hidden="true"></i></a></h3>
+    <div class="container-fluid testimonial-container">
+      <div class="row testimonial-row">
+        <div class="col-md-4 col-sm-12">
+          <div class="testimonial-icon testimonial-box1">
+            <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+            <p>I've been using Meguerian tax services for years now and I couldn't be happier. George is knowledable, fair and friendly. He takes the time to know you and your financial situation before he makes any recommendations.</p>
+            <p class="testimonial-name">Simon M, Pasadena</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="testimonial-icon testimonial-box2">
+            <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+            <p>Incredible service. Very sharp staff. They sure know what they are doing. Always available 365 days a year would definitely recommend.</p>
+            <p class="testimonial-name">Armen H, La Crescenta-Montrose</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="testimonial-icon testimonial-box2">
+            <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+            <p>By far The most professional and experienced accountant I have been to. Extremely knowledgeable and courteous. Explained every item by line detail and answered all my questions. Mr Meguerian is simply the best.</p>
+            <p class="testimonial-name">Ani D, Los Angeles</p>
+          </div>
+        </div>
+       </div>
+    </div>
+  </section>
+  <section class="countdown-section">
+    <h3 class="countdown-h3">Countdown to Tax Day:</h3>
+    <div id="countdown-timer">
+    </div>
+  </section>
+
+  <section class="documents-section" id="forms">
+    <h3 class="documents-h3">Documents</h3>
+    <hr class="documents-line">
+      
+
+      <div class="container-fluid documents-container">
+        <div class="row form-box-row documents-box-row">
+          <div class="col-md-3 col-sm-12 documents-box-col form-box-col1">
+            <div class="documents-box"><a href="./img/Tax-Filing-Due-Dates.pdf"><p class="documents-box-p">Tax Filing Due Dates</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col2">
+            <div class="documents-box"><a href="./img/Tax-Organizer.pdf"><p class="documents-box-p">Tax Organizer</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col3">
+            <div class="documents-box"><a href="./img/Business-Entity-Comparisons.pdf"><p class="documents-box-p">Business Entity Comparisons</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col4">
+            <div class="documents-box"><a href="./img/Components-of-a-Good-Estate-Plan.pdf"><p class="documents-box-p">Components of a Good Estate Plan</p></a></div>
+          </div>
+        </div>
+      </div>
+        <div class="row documents-box-row">
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col1">
+            <div class="documents-box"><a href="./img/Types-of-Trusts-Fully-Explained.pdf"><p class="documents-box-p">Types of Trusts - Fully Explained</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col2">
+            <div class="documents-box"><a href="./img/Understanding-Living-Trusts.pdf"><p class="documents-box-p">Understanding Living Trusts</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-col3">
+            <div class="documents-box"><a href="./img/Living-Trust-Questionnaire.pdf"><p class="documents-box-p">Living Trust Questionnaire</p></a></div>
+          </div>
+          <div class="col-md-3 col-sm-12 documents-box-col documents-box-co">
+            <div class="documents-box"><a href="./img/Questionnaire-for-living-will.pdf"><p class="documents-box-p">Living Will Questionnaire</p></a></div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-footer" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h3 class="contact-h3">Locations</h3>
+            <div class="col-md-6 address">
+              <p>Meguerian &amp; Associates<br>16000 Ventura Blvd Suite 410<br>Encino, CA 91436<br> <i class="fa fa-phone" aria-hidden="true"></i><a href="tel: 18183956629" class="contact-type"> 818.395.6629</a></p>
+              <a href="https://www.yelp.com/biz/meguerian-and-associates-northridge"><i class="fa fa-yelp fa-2x fa-contact" aria-hidden="true"></i></a>
+              <a href="www.linkedin.com/in/george-meguerian-b104054"><i class="fa fa-linkedin-square fa-2x fa-contact" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-6 address">
+              <p>Meguerian &amp; Associates<br>16801 Tupper St. Suite 100<br>Northridge, CA 91343<br> <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:george@meguerianandassociates.com" class="contact-type"> george@meguerianandassociates.com</a></p>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 contact-form-col">
+          <form class="form-horizontal" role="form" method="post" action="index.php">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="col-sm-2 control-label">Message</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="message"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section class="map-section">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <iframe
+              width="100%"
+              height="500"
+              frameborder="0" style="border:0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCBmnSJKfjQL3VX4WM8fSwwr2bw-_5ZMik
+                &q=16000+Ventura+Blvd+%23410,+Encino,+CA+91436" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <p>&copy; 2017 Meguerian &amp; Associates</p>
+    </div>
+    <div class="logo">
+      <img src="./img/ctec.jpg" id="ctec" class="footer-logo">
+      <img src="./img/afsp.PNG" id="afsp" class="footer-logo">
+      <img src="./img/irs.PNG" id="irs" class="footer-logo">
+    </div>
+  </footer>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
+
